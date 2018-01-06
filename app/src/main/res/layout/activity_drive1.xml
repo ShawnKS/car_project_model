@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shawn.car_project.driveActivity"
+    android:orientation="horizontal">
+
+    <shawn.car_project.MySurface
+        android:id="@+id/mysurfaceViewVideo"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:layout_x="1dp"
+        android:layout_y="0dp" />
+
+    <Button
+        android:id="@+id/button_left"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_x="21dp"
+        android:layout_y="373dp"
+        android:text="左转" />
+
+    <Button
+        android:id="@+id/button_backward"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="71dp"
+        android:layout_y="373dp"
+        android:text="后退" />
+
+    <Button
+        android:id="@+id/button_right"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="121dp"
+        android:layout_y="373dp"
+        android:text="右转" />
+
+    <Button
+        android:id="@+id/button_forward"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="71dp"
+        android:layout_y="328dp"
+        android:text="前进" />
+
+</AbsoluteLayout>

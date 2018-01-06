@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shawn.car_project.driveActivity"
+    android:orientation="horizontal">
+
+    <shawn.car_project.MySurface
+        android:id="@+id/mysurfaceViewVideo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <shawn.car_project.LongClickButton
+        android:id="@+id/button_forward"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="102dp"
+        android:layout_y="182dp"
+        android:text="前进" />
+
+    <shawn.car_project.LongClickButton
+        android:id="@+id/button_backward"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="102dp"
+        android:layout_y="227dp"
+        android:text="后退" />
+
+    <shawn.car_project.LongClickButton
+        android:id="@+id/button_left"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_x="36dp"
+        android:layout_y="227dp"
+        android:text="左转" />
+
+    <shawn.car_project.LongClickButton
+        android:id="@+id/button_right"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="167dp"
+        android:layout_y="227dp"
+        android:text="右转" />
+
+    <ImageButton
+        android:id="@+id/left"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_x="435dp"
+        android:layout_y="41dp"
+        app:srcCompat="@drawable/ic_left" />
+
+    <ImageButton
+        android:id="@+id/right"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_x="534dp"
+        android:layout_y="43dp"
+        app:srcCompat="@drawable/ic_right" />
+
+    <ImageButton
+        android:id="@+id/up"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_x="486dp"
+        android:layout_y="4dp"
+        app:srcCompat="@drawable/ic_up" />
+
+    <Button
+        android:id="@+id/button_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="478dp"
+        android:layout_y="218dp"
+        android:text="拍照" />
+
+    <Button
+        android:id="@+id/button_vedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="479dp"
+        android:layout_y="267dp"
+        android:text="开始录像" />
+
+    <ImageButton
+        android:id="@+id/down"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_x="490dp"
+        android:layout_y="83dp"
+        app:srcCompat="@drawable/ic_down" />
+
+    <Button
+        android:id="@+id/song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="475dp"
+        android:layout_y="172dp"
+        android:text="抓取" />
+
+    <Button
+        android:id="@+id/zhua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="475dp"
+        android:layout_y="124dp"
+        android:text="松开" />
+
+    <Button
+        android:id="@+id/P"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_x="482dp"
+        android:layout_y="39dp"
+        android:text="P" />
+
+
+</AbsoluteLayout>
